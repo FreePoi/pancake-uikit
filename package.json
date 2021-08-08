@@ -19,9 +19,7 @@
     "release": "yarn build && np"
   },
   "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "hooks": {}
   },
   "jest": {
     "setupFilesAfterEnv": [
